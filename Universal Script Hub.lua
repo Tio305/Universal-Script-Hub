@@ -31,15 +31,14 @@ local Scripts = Scripts:AddSection({
 Scripts:AddButton({
 	Name = "Aimbot (E To Toggle)",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tio305/Aimbot-E-To-Toggle/refs/heads/main/Aimbot.lua",true))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/k5nfErmK",true))()
   	end    
 })
 
 Scripts:AddButton({
 	Name = "Esp",
 	Callback = function()
-        -- Esp
-local function highlightPlayer(player)
+        local function highlightPlayer(player)
     if player.Character then
         -- Check if a highlight already exists to avoid duplicates
         if not player.Character:FindFirstChild("Highlight") then
