@@ -31,7 +31,7 @@ local Scripts = Scripts:AddSection({
 Scripts:AddButton({
 	Name = "Aimbot (E To Toggle)",
 	Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/vv9MmCVg",true))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/X1RcuLT7",true))()
   	end    
 })
 
